@@ -82,7 +82,7 @@ for stock_name in s_p:
     else:
         bad_ticker.append(stock_name)
 
-# update thbad_tickertock name list
+# reomve the bad ticker from the name list
 for i in bad_ticker:
     s_p.remove(i)
 
